@@ -1,0 +1,53 @@
+.section-community:not(.slick-profiles){
+   padding-top: 18rem;
+
+    // text-align: center;
+}
+.section-steps{
+    padding-top: 6rem;
+    padding-bottom: 18rem;
+     background-image: url('/img/stepsbg.svg');
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 111vh;
+    margin-top: 15.8rem;
+
+    .illustration{
+        width: 483px;
+        height: 457px;
+        position: relative;
+
+         &__img{
+             display: inline-block;
+             padding-bottom: 14rem;
+             position: absolute;
+             left: 50%;
+         }
+         &__text{
+            position: absolute;
+            bottom: -16px;
+            right: -30%;
+            line-height: 29px;
+            font-size: 22px;
+            font-weight:300;
+            text-align: center;
+            width: 483px;
+                height: 124px;
+            color: #FFFFFF;
+         }
+    }
+
+    .i1{
+        
+    }
+    .i2{
+        display: none;
+    }
+    .i3{
+        display: none;  
+    }
+    .i4{
+        display: none;
+    }
+}

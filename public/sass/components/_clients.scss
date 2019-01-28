@@ -1,0 +1,64 @@
+
+.clients{
+    padding: 8rem 0 5rem 0;
+    text-align: center;
+    line-height: 3rem;
+}
+.client-list {
+    list-style-type: none;
+   padding: 6rem;
+   margin-top: 8rem;
+   margin-bottom: 5rem;
+}
+.client-list li {
+    display: inline-block;
+    margin-left: 7rem;
+    padding: 2rem;
+}
+
+.client-img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    vertical-align: middle;
+    filter: grayscale(100%);
+    
+    &--uber{
+        
+        width: 10.5rem;
+    }
+    &--uc{
+        width: 8.5rem;
+        
+    }
+    &--dunzo{
+        
+        width: 5.5rem;
+    }
+    &--cm{
+        
+        width: 9.5rem;
+    }
+    &--ecom{
+        
+        width: 10.1rem;
+    }
+    &--flipkart{
+        
+        width: 11.1rem;
+    }
+}
+
+.client-list li a:visited,
+.client-list li a:link {
+    padding: .8rem 0;
+    text-decoration: none;
+
+
+}
+
+.client-list li a:hover,
+.client-list li a:active {
+   
+
+}

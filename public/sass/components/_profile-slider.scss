@@ -1,0 +1,217 @@
+.slick-profiles{
+    width: 100%;
+    height: 440px;
+    vertical-align: middle;
+    text-align: center;
+    .slick-item{
+        text-align: left;
+        background: #F8F8F8;
+        border-radius: 13.5196px;
+       
+        
+        
+    }
+    .slick-item:not(.slick-center) { 
+        width: 713px;
+        height: 358px;
+        cursor: pointer; 
+        transform: translateY(30px);
+        opacity: 0.4;
+    }
+    
+}
+
+.slick-prev{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:10%;
+    cursor: pointer; 
+    z-index: 9999999999999999999;
+    
+}
+.slick-next{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    cursor: pointer; 
+    right: 10%
+}
+
+.slick-center {
+    
+    width: 812px !important;
+    height: 440px !important;
+    margin-left: 86px;
+    margin-right: 86px;
+}
+
+.dp{
+    width: 274px;
+    height: 348px;
+    background: url('/img/dp.png');
+    border-radius: 0px 0px 6.14525px 6.14525px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 25px;
+    
+}
+
+.dp__img{
+    width: 0%;
+    height: 0%;
+    object-fit: cover;
+    border-radius: 0px 0px 6.14525px 6.14525px;
+}
+.slick-item-inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.slick-item:not(.slick-center) .dp{ 
+    width: 192px;
+    height: 276px;
+    background: url('/img/dp.png');
+    border-radius: 0px 0px 6.14525px 6.14525px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 35px;
+}
+.slick-item:not(.slick-center) .hire-btn{ 
+    width: 192px;
+    height: 36px;
+    left: 35px;
+}
+
+.hire-btn{
+    position: absolute;
+    left: 44px;
+    bottom: 25.75px;
+    z-index: 999999999999999999;
+    width: 235.98px;
+    height: 44.25px;
+    cursor: pointer;
+}
+
+
+.hire__img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+// STATUS
+.slick-item:not(.slick-center) .status{ 
+    width: 72.18px;
+    height: 18.12px;
+    left: 253px;
+}
+
+.status{
+    position: absolute;
+    left: 333px;
+    top: 31px;
+    z-index: 999999999999999999;
+    width: 92.18px;
+    height: 22.12px;
+
+}
+
+
+.status__img{
+    width: 100%;
+    height: 100%;
+}
+
+// SKILL
+.slick-item:not(.slick-center) .skill,.slick-item:not(.slick-center) .profile-des { 
+    left: 253px;
+    top: 65px;
+}
+.slick-item:not(.slick-center) .profile-des { 
+    left: 253px;
+    top: 150px;
+}
+
+.skill{
+    position: absolute;
+    left: 333px;
+    top: 77px;
+    z-index: 999999999999999999;
+    float: left;
+    width: 466px;
+    
+}
+.skills{
+    font-size: 12px; 
+}
+
+.skill-text{
+    line-height: 32px;
+    font-size: 17.2067px;
+    color: #606060;
+    width: 92.18px;
+    height: 22.12px;
+}
+.skills__item{
+    display: inline-block;
+    color: #606060;
+    background: #FFBAAD;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-top: 9.4px;
+    padding: 4px 14px;
+}
+
+.profile-des{
+    position: absolute;
+    left: 333px;
+    top: 160px;
+    z-index: 999999999999999999;
+    width: 436px;
+}
+.des{
+    font-size: 15px; 
+}
+
+.profile-work{
+margin-top: 25px;
+}
+
+.slick-dots {
+    margin-top: 44px;
+	display: inline-block;
+	justify-content: center;
+	background-color: #D6D6D6;
+    // margin:0 auto;
+    padding-bottom: 77px;
+	padding: .7rem 2.3rem;
+	border-radius: 25px;
+	list-style-type: none;
+		li {
+			margin: 0 0.25rem;
+			display: inline-block;
+        }
+        li:not(:last-child){ 
+          margin-right: 2.3rem;
+        }
+		button {
+			display: block;
+            width: 14.06px;
+            height: 15px;
+			padding: 0;
+			background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+			border: none;
+			border-radius: 100%;
+			
+			text-indent: -9999px;
+		}
+		li.slick-active button {
+			
+                background: #9196FE;
+		}
+}

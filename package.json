@@ -1,0 +1,21 @@
+{
+  "name": "vahan-client",
+  "version": "1.0.0",
+  "description": "a client front face app for vahan",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass public/sass/main.scss public/css/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  },
+  "dependencies": {
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "helmet": "^3.12.1"
+  },
+  "author": "Abhinava",
+  "license": "ISC"
+}

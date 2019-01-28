@@ -1,0 +1,30 @@
+.face-reel{
+    position: absolute;
+    right: 6.3rem;
+    width: 394px;
+    height: 824px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    &__panel{
+        &--left{
+            // margin-right: 0 !important;
+            padding: 0;
+            margin: 0;
+            position: absolute ;
+            left: 0;
+            top: 0;
+        }
+        &--right{
+            padding: 0;
+            margin: 0;
+            position: absolute ;
+            left: 204px;
+            top: -85px;
+            // margin-left: 0 !important;
+        }
+    }
+    &__item{
+        margin-bottom: 33px;
+    }
+
+}

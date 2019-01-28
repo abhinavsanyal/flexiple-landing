@@ -1,0 +1,105 @@
+.header{
+    position: relative;
+    // background-image: url('/img/Hero-BG.svg');
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    &-bg{
+        position: absolute;
+    width: 100%;
+    height: 815px;
+    top: -110px;
+
+        &__img{
+            width: 100%;
+            // width: 1540px;
+            // height: 815px;
+        }
+    }
+
+   &__logo-box{
+        position: absolute;
+        top: 4rem;
+        left: 8rem;
+        margin-right: 48px;
+    }
+    
+   &__logo{
+
+    }
+
+
+    &__logo-text{
+        position: absolute;
+        top: -2rem;
+        left: 8rem;
+        font-size: 5rem;
+        font-weight: 300;
+        color: $color-white;
+
+        
+    }
+    
+    
+   &__text-box{
+        position: absolute;
+        top:17rem;
+
+        width: 65.2rem;
+        left: 7.7rem;
+        text-align: left;
+
+        @include respond(phone){
+            position: absolute;
+            top:40%;
+            left:50%;
+            transform: translate(-50%,-50%);
+           width: 100%;
+            text-align: center !important;
+        }
+       
+    }
+
+    &__clientel{
+        position: absolute;
+        top:569.34px;
+        left: 7.7rem;
+        width: 720.8px;
+        height: 34px;
+        @include respond(phone){
+ 
+        }
+       
+    }
+}
+
+
+
+.main-illustration{
+    position: absolute;
+    top: 23rem;
+    right: 0rem;
+    width: 54%;
+    &__img{
+        float: right;
+        width: 100%;
+        height: 100%;
+        margin-right: 6rem;
+        @include respond(tab-land){
+           margin-right: 2rem;
+    
+        }
+    }
+
+    @include respond(tab-land){
+        width: 57%;
+        top: 40%
+    }
+    @include respond(phone) {
+        width: 56%;
+        top: 60%;
+        right: 20%;
+    }
+}
